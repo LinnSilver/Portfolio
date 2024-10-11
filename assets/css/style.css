@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(250, 250, 247);
+    padding-left: 150px;
+    padding-right: 150px;
+}
+    
+/* unvisited link */
+a:link {
+    color: rgb(195, 73, 7);
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: rgb(77, 11, 11);
+}
+
+/* mouse over link */
+a:hover {
+    color: rgb(173, 147, 0);
+}
+
+/* selected link */
+a:active {
+    color: rgb(255, 102, 0);
+}
+
+.list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+}
