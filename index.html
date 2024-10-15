@@ -1,8 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Linn Silver Portfolio</title>
 </head>
@@ -10,35 +15,54 @@
 <body>
     <header>
         <!-- Hero image -->
-        <img src="./assets/images/background.png" alt="">
+        <img src="./assets/images/hafe-construction.png" height="400" alt="hafe-construction sign">
+        <img src="./assets/images/background.png" alt="" class="center">
+        <div class="center">
         <h1>Linn Silver</h1>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde ab maxime asperiores itaque, quia atque! Inventore omnis accusantium totam labore saepe quisquam aliquid perferendis, fugit assumenda, doloribus dignissimos reiciendis nemo.</p>
+        </div>
     </header>
 
     <!--Links to my Code Institute Examining Projects -->
-    <div>
+    <div class="center">
         <h2>My Projects</h2>
         <p>My portfolio projects from Code Institute. Check out the GitHub and deploy app.</p>
-        <ul class="list" class="a">
-            <li><a href="//github.com/LinnSilver/sewlot-pj5" aria-label="Link to SewLot. Opens in new windo." target="_blank">Sewlot</a><br>
-                <img src="./assets/images/sewlot-pp5.png" alt="Image of Sewlot start screen" height="150">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure magni veniam, tempora omnis architectot.</p></li>
-            <li><a href="https://github.com/LinnSilver/sew_api" aria-label="Link to SewAPI. Opens in new windo." target="_blank">Sew API</a><br>
-                <img src="./assets/images/sewapi-pp5.jpg" alt="Image of Sew-API admin panel" height="150">
-            <li><a href="https://github.com/LinnSilver/scifi-book-club-pj4" aria-label="Link to Scifi Book Club. Opens in new windo." target="_blank">Scifi Book Club</a><br>
-                <img src="./assets/images/pp4.jpg" alt="Image of scifi book club start screen" height="150">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure magni veniam, tempora omnis architectot.</p></li>
-            <li><a href="https://github.com/LinnSilver/make-a-quiz-pj3" aria-label="Link to make a quiz. Opens in new windo." target="_blank" >Make a quiz</a><br>
-                <img src="./assets/images/pp3.jpg" alt="Image of make a quiz start screen" height="150">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure magni veniam, tempora omnis architectot.</p></li>
-            <li><a href="https://github.com/LinnSilver/to-do-list-pj2" aria-label="Link to To do list. Opens in new windo." target="_blank" >To do list</a><br>
-                <img src="./assets/images/pp2.jpg" alt="Image of to do list start screen" height="150">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure magni veniam, tempora omnis architectot.</p></li>
-            <li><a href="https://github.com/LinnSilver/Project1-Farrier" aria-label="Link to E B Farrier. Opens in new windo." target="_blank" >E B Farrier</a><br>
-                <img src="./assets/images/pp1.jpg" alt="Image of E B Farrier start screen" height="150">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure magni veniam, tempora omnis architectot.</p></li>
+    </div>
+
+        <section class="center">
+            <ul class="flex-container wrap">
+                <li class="flex-item">
+                        <a href="//github.com/LinnSilver/sewlot-pj5" aria-label="Link to SewLot. Opens in new windo." target="_blank">Sewlot</a><br>
+                        <img src="./assets/images/sewlot-pp5.png" alt="Image of Sewlot start screen" height="150">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure magni veniam, tempora omnis architectot.</p>
+                </li>
+                <li class="flex-item">
+                        <a href="https://github.com/LinnSilver/sew_api" aria-label="Link to SewAPI. Opens in new windo." target="_blank">Sew API</a><br>
+                        <img src="./assets/images/sewapi-pp5.jpg" alt="Image of Sew-API admin panel" height="150">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure magni veniam, tempora omnis architectot.</p>
+                </li>
+                <li class="flex-item">
+                        <a href="https://github.com/LinnSilver/scifi-book-club-pj4" aria-label="Link to Scifi Book Club. Opens in new windo." target="_blank">Scifi Book Club</a><br>
+                        <img src="./assets/images/pp4.jpg" alt="Image of scifi book club start screen" height="150">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure magni veniam, tempora omnis architectot.</p>
+                </li>
+                <li class="flex-item">
+                        <a href="https://github.com/LinnSilver/make-a-quiz-pj3" aria-label="Link to make a quiz. Opens in new windo." target="_blank" >Make a quiz</a><br>
+                        <img src="./assets/images/pp3.jpg" alt="Image of make a quiz start screen" height="150">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure magni veniam, tempora omnis architectot.</p>
+                </li>
+                <li class="flex-item">
+                        <a href="https://github.com/LinnSilver/to-do-list-pj2" aria-label="Link to To do list. Opens in new windo." target="_blank" >To do list</a><br>
+                        <img src="./assets/images/pp2.jpg" alt="Image of to do list start screen" height="150">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure magni veniam, tempora omnis architectot.</p>
+                </li>
+                <li class="flex-item">
+                        <a href="https://github.com/LinnSilver/Project1-Farrier" aria-label="Link to E B Farrier. Opens in new windo." target="_blank" >E B Farrier</a><br>
+                        <img src="./assets/images/pp1.jpg" alt="Image of E B Farrier start screen" height="150">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure magni veniam, tempora omnis architectot.</p>
+                </li>
             </ul>
-        </div>
+        </section>
 
     <footer>
         <a href="https://www.linkedin.com/in/linn-silver"
@@ -53,7 +77,10 @@
             aria-label="Send me an email through your default mail application">
             Mail me
         </a>
+        <p>Copy right Linn Silver 2024</p>
     </footer>
+<!-- Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 </body>
 </html>
