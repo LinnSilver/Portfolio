@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(245, 213, 215);
+    
     padding-left: 30px;
     padding-right: 30px;
     color: #110600;
@@ -12,7 +12,6 @@ body {
     padding: 0;
     margin: 0;
     list-style: none;
-    /*border: 1px solid #8e412e;*/
     -ms-box-orient: horizontal;
     display: -webkit-box;
     display: -moz-box;
@@ -20,51 +19,29 @@ body {
     display: -moz-flex;
     display: -webkit-flex;
     display: flex;
-  }
+}
   
-  .wrap { 
+.wrap { 
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
     align-content: space-between;
-  }
+}
 
-  .container {
+.container {
     flex-wrap: wrap; /* Remove? */
     align-content: space-between;
     justify-content: flex-start;
     padding: 0;
     margin-top: 20px;
-  }
+}
 
-  .flex-item {
-    background: #1697a6;
+.flex-item {
+    background: rgb(248, 245, 245);
     width: 300pt;
     height: 300pt;
     margin: 10px;
-    color: white;
     font-weight: bold;
     font-size: 2em;
-    text-align: center;
-  }
-
-  .about {
-    padding-top: 15pt;
-    padding-right: 20pt;
-    padding-left: 10pt;
-}
-
-.me {
-    max-width: 150pt;
-}
-
-.p {
-    padding-top: 15pt;
-    padding-right: 10pt;
-    padding-left: 10pt;
-    font-size: 18px;
-    line-height: 25px;
-    color: #f4ece2;
-    font-weight: bold;
     text-align: center;
 }
 
@@ -72,7 +49,6 @@ section {
     display: block;
     width: 75%;
     padding: 10px;
-    /* border: 5px solid #ffc24b; */
     margin: 10px;
 }
 
@@ -83,6 +59,39 @@ section {
     width: 100%;
 }
 
+.me {
+    max-width: 150pt;
+    padding: 15pt;
+}
+
+.about {
+    padding-top: 15pt;
+    padding-right: 20pt;
+    padding-left: 10pt;
+}
+
+.p {
+    padding-top: 15pt;
+    padding-right: 10pt;
+    padding-left: 10pt;
+    font-size: 18px;
+    line-height: 25px;
+    color: #1697a6;
+    font-weight: bold;
+    text-align: center;
+}
+
+.projects {
+    background-color: rgb(245, 213, 215);
+}
+.experience {
+    background-color: #1697a6;
+    list-style: none;
+}
+
+.cl {
+    margin-left: 30pt;
+}
 
 /* unvisited link */
 a:link {
@@ -92,7 +101,7 @@ a:link {
 
 /* visited link */
 a:visited {
-    color: #013238;
+    color: #0e606b;
 }
 
 /* mouse over link */
