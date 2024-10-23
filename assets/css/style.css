@@ -4,6 +4,9 @@ body {
     padding-right: 30px;
     color: #110600;
 
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 .flex-container {
@@ -41,7 +44,7 @@ body {
     height: 300pt;
     margin: 10px;
     font-weight: bold;
-    font-size: 2em;
+    font-size: 2rem;
     text-align: center;
 }
 
@@ -74,8 +77,8 @@ section {
     padding-top: 15pt;
     padding-right: 10pt;
     padding-left: 10pt;
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 1rem;
+    line-height: 2rem;
     color: #1697a6;
     font-weight: bold;
     text-align: center;
@@ -92,6 +95,12 @@ section {
 .cl {
     margin-left: 30pt;
 }
+
+.edukations {
+    background-color: #C9EED3;
+}
+
+
 
 /* unvisited link */
 a:link {
