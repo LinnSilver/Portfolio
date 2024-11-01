@@ -121,6 +121,35 @@ section {
     text-align: center;
 }
 
+/* Educations */
+#edukation {
+    background-color: #C9EED3;
+    padding-top: 15px;
+}
+
+/* Experience */
+#experience {
+    background-color: #1697a6;
+    padding-top: 15px;
+}
+#cl {
+    margin-left: 25pt;
+    margin-right: 25pt;
+}
+
+/* Work */
+#work {
+    list-style: none;
+    padding: 25pt;
+}
+
+
+/* unvisited link */
+a:link {
+    color: #fd7b9c;
+    text-decoration: none;
+}
+
 /* unvisited link */
 a:link {
     color: #fd7b9c;
