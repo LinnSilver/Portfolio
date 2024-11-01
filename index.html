@@ -8,63 +8,80 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- CSS -->
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="assets\css\style.css">
     <title>Linn Silver Portfolio</title>
 </head>
 
 
 <body>
-    <header>
-        <!-- Hero image -->
-        <img src="./assets/images/hafe-construction.png" height="300" alt="hafe-construction sign">
-        <img src="./assets/images/background.png" alt="" class="center">
-        <div class="center">
-        <h1>Linn Silver</h1>
-        <p>Hello there! I am a Junior Full Stack Developer with a Passion for React, Django and creating seamless and accessible user experiences. My journey in development started with a fascination with how things work behind the scenes, and it grew into a new direction in life that I absolutely love.</p>
+    <!-- Hero image -->
+    <div id="top-img">
+        <img src="./assets/images/background.png" alt="" width="100%">
+     </div>
+    
+    <img src="./assets/images/hafe-construction.png" id="not-done" height="300" alt="hafe-construction sign" class="center" >
+
+    <div id="max" class="center">
+        <header>
+            <div id="about" class="flex-container">
+                <div class="row smal-size medium-size max-size">
+                    <div class="col-sm-3 me-img">
+                        <img src="./assets/images/profil.jpg" class="rounded-circle" alt="Profile image of Linn" width="100%" >
+                    </div>
+                    <div class="col-sm-9 me-p">
+                        <h1>Linn Silver</h1>
+                        <p>Hello there! I am a Junior Full Stack Developer with a Passion for React, Django and creating seamless and accessible user experiences. My journey in development started with a fascination with how things work behind the scenes, and it grew into a new direction in life that I absolutely love.</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!--Links to my Code Institute Examining Projects -->
+        <div id="projects" class="flex-container">
+            <section>
+                <div class="row smal-size medium-size max-size">
+                    <h2 class="my-p-p">My Projects</h2>
+                    <p>My projects from the Code Institute that I'm most proud of. Check out the GitHub. You'll find all the information on the projects in the README, along with a link to the deployed app and the code, of course.</p>
+                </div>
+            </section>
+
+            <section>
+                <ul class="flex-container">
+                    <li class="flex-item">
+                            <a href="//github.com/LinnSilver/sewlot-pj5" aria-label="Link to SewLot. Opens in new windo." target="_blank">Sewlot</a><br>
+                            <img src="./assets/images/sewlot-pp5.png" alt="Image of Sewlot start screen" height="150">
+                            <p class="p-rojects">My Full Stack, React, Social media platform for sewing enthusiasts. Together with my drf-API this is my graduating project from the Code Institute.</p>
+                    </li>
+                    <li class="flex-item">
+                            <a href="https://github.com/LinnSilver/sew_api" aria-label="Link to SewAPI. Opens in new windo." target="_blank">Sew API</a><br>
+                            <img src="./assets/images/sewapi-pp5.jpg" alt="Image of Sew-API admin panel" height="150">
+                            <p class="p-rojects">My drf-API. Together with SewLot is my graduating project from the Code Institute.</p>
+                    </li>
+                    <li class="flex-item">
+                            <a href="https://github.com/LinnSilver/scifi-book-club-pj4" aria-label="Link to Scifi Book Club. Opens in new windo." target="_blank">Scifi Book Club</a><br>
+                            <img src="./assets/images/pp4.jpg" alt="Image of scifi book club start screen" height="150">
+                            <p class="p-rojects">This webpage for a book club was created with Django, Django/allauth and Bootstrap. The Librarian has a full CRUD and users can comment on the book of the month.</p>
+                    </li>
+                    <li class="flex-item">
+                            <a href="hMy browser-based to-do list is created with HTML, CSS and JavaScript. Using internal memory with JSON to save tasks. Maybe it is simple, but I use it every day.ttps://github.com/LinnSilver/make-a-quiz-pj3" aria-label="Link to make a quiz. Opens in new windo." target="_blank" >Make a quiz</a><br>
+                            <img src="./assets/images/pp3.jpg" alt="Image of make a quiz start screen" height="150">
+                            <p class="p-rojects">Python! Python! Python! <br> 
+                                With this command-line application you can create your own quiz and let others play it.</p>
+                    </li>
+                    <li class="flex-item">
+                            <a href="https://github.com/LinnSilver/to-do-list-pj2" aria-label="Link to To do list. Opens in new windo." target="_blank" >To do list</a><br>
+                            <img src="./assets/images/pp2.jpg" alt="Image of to do list start screen" height="150">
+                            <p class="p-rojects">My browser-based to-do list is created with HTML, CSS and JavaScript. Using internal memory with JSON to save tasks. Maybe it is simple, but I use it every day.</p>
+                    </li>
+                    <li class="flex-item">
+                            <a href="https://github.com/LinnSilver/Project1-Farrier" aria-label="Link to E B Farrier. Opens in new windo." target="_blank" >E B Farrier</a><br>
+                            <img src="./assets/images/pp1.jpg" alt="Image of E B Farrier start screen" height="150">
+                            <p class="p-rojects">My first webpage is a static web page that informs customers about E B farrier services. It contains a contact form and links to social media.</p>
+                    </li>
+                </ul>
+            </section>
         </div>
-    </header>
-
-    <!--Links to my Code Institute Examining Projects -->
-    <div class="center wrap">
-        <h2>My Projects</h2>
-        <p>My projects from the Code Institute that I'm most proud of. Check out the GitHub. You'll find all the information on the projects in the README, along with a link to the deployed app and the code, of course.</p>
     </div>
-
-        <section class="center">
-            <ul class="flex-container wrap">
-                <li class="flex-item">
-                        <a href="//github.com/LinnSilver/sewlot-pj5" aria-label="Link to SewLot. Opens in new windo." target="_blank">Sewlot</a><br>
-                        <img src="./assets/images/sewlot-pp5.png" alt="Image of Sewlot start screen" height="150">
-                        <p class="p">My Full Stack, React, Social media platform for sewing enthusiasts. Together with my drf-API this is my graduating project from the Code Institute.</p>
-                </li>
-                <li class="flex-item">
-                        <a href="https://github.com/LinnSilver/sew_api" aria-label="Link to SewAPI. Opens in new windo." target="_blank">Sew API</a><br>
-                        <img src="./assets/images/sewapi-pp5.jpg" alt="Image of Sew-API admin panel" height="150">
-                        <p class="p">My drf-API. Together with SewLot is my graduating project from the Code Institute.</p>
-                </li>
-                <li class="flex-item">
-                        <a href="https://github.com/LinnSilver/scifi-book-club-pj4" aria-label="Link to Scifi Book Club. Opens in new windo." target="_blank">Scifi Book Club</a><br>
-                        <img src="./assets/images/pp4.jpg" alt="Image of scifi book club start screen" height="150">
-                        <p class="p">This webpage for a book club was created with Django, Django/allauth and Bootstrap. The Librarian has a full CRUD and users can comment on the book of the month.</p>
-                </li>
-                <li class="flex-item">
-                        <a href="hMy browser-based to-do list is created with HTML, CSS and JavaScript. Using internal memory with JSON to save tasks. Maybe it is simple, but I use it every day.ttps://github.com/LinnSilver/make-a-quiz-pj3" aria-label="Link to make a quiz. Opens in new windo." target="_blank" >Make a quiz</a><br>
-                        <img src="./assets/images/pp3.jpg" alt="Image of make a quiz start screen" height="150">
-                        <p class="p">Python! Python! Python! <br> 
-                            With this command-line application you can create your own quiz and let others play it.</p>
-                </li>
-                <li class="flex-item">
-                        <a href="https://github.com/LinnSilver/to-do-list-pj2" aria-label="Link to To do list. Opens in new windo." target="_blank" >To do list</a><br>
-                        <img src="./assets/images/pp2.jpg" alt="Image of to do list start screen" height="150">
-                        <p class="p">My browser-based to-do list is created with HTML, CSS and JavaScript. Using internal memory with JSON to save tasks. Maybe it is simple, but I use it every day.</p>
-                </li>
-                <li class="flex-item">
-                        <a href="https://github.com/LinnSilver/Project1-Farrier" aria-label="Link to E B Farrier. Opens in new windo." target="_blank" >E B Farrier</a><br>
-                        <img src="./assets/images/pp1.jpg" alt="Image of E B Farrier start screen" height="150">
-                        <p class="p">My first webpage is a static web page that informs customers about E B farrier services. It contains a contact form and links to social media.</p>
-                </li>
-            </ul>
-        </section>
 
     <footer>
         <a href="https://www.linkedin.com/in/linn-silver"

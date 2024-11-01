@@ -1,16 +1,56 @@
+
+
 body {
-    background-color: rgb(246, 246, 190);
-    padding-left: 30px;
-    padding-right: 30px;
-    color: rgb(28, 26, 26);
+    color: #110600;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#top-img {
+    position: relative;
+    top: 0;
+    height:200px;
+    overflow: hidden;
+}
+
+#not-done {
+    position: absolute;
+    top: 0;
+    display: block;
+    margin-left: 40%;
+}
+
+#max {
+    max-width: 1300px;
+}
+
+/* Smal devices */
+.smal-size {
+    max-width: 400px;
+}
+
+/* Medium devices */
+@media only screen and (min-width: 870px) {
+    .medium-size {
+        max-width: 820px;
+    }
+}
+
+/* Large devices */
+@media only screen and (min-width: 1300px) {
+    .max-size {
+        max-width: 1240px;
+    }
 }
 
 .flex-container {
-    flex-wrap: wrap; /* Remove? */
+    flex-wrap: wrap;
+    justify-content: center;
     padding: 0;
     margin: 0;
     list-style: none;
-    border: 1px solid silver;
     -ms-box-orient: horizontal;
     display: -webkit-box;
     display: -moz-box;
@@ -18,49 +58,67 @@ body {
     display: -moz-flex;
     display: -webkit-flex;
     display: flex;
-  }
-  
-  .wrap    { 
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
-  }
-  
-  .flex-item {
-    background: rgb(253, 227, 82);
-    padding: 5px;
-    width: 400px;
-    height: 400px;
-    margin: 10px;
-    
-    
-    color: white;
-    font-weight: bold;
-    font-size: 2em;
-    text-align: center;
-  }
+}
 
-.p {
-    padding-top: 20px;
-    font-size: 18px;
-    line-height: 25px;
-    color: white;
+.flex-item {
+    background: rgb(248, 245, 245);
+    width: 300pt;
+    height: 300pt;
+    margin: 10px;
     font-weight: bold;
+    font-size: 2rem;
     text-align: center;
 }
 
 section {
     display: block;
-    width: 75%;
     padding: 10px;
-    border: 5px solid rgb(66, 50, 11);
-    margin: 10px;
+    margin: 0px;
 }
 
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+}
+
+/* About */
+#about {
+    padding-top: 20px;
+    margin: 0;
+    padding-right: 10pt;
+    padding-left: 10pt;
+}
+
+.me-img {
+    position: relative;
+    max-width: 150pt;
+    min-width: 150px;
+    padding: 15pt;
+}
+
+.me-p {
+    padding-top: 20px;
+}
+
+/* Projects */
+#projects {
+    background-color: rgb(245, 213, 215);
+}
+
+.my-p-p {
+    margin-top: 15px;
+}
+
+.p-rojects {
+    padding-top: 15pt;
+    padding-right: 10pt;
+    padding-left: 10pt;
+    font-size: 1rem;
+    line-height: 2rem;
+    color: #1697a6;
+    font-weight: bold;
+    text-align: center;
 }
 
 
