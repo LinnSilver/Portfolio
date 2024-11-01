@@ -121,21 +121,20 @@ section {
     text-align: center;
 }
 
-
 /* unvisited link */
 a:link {
-    color: rgb(195, 73, 7);
+    color: #fd7b9c;
     text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-    color: rgb(55, 37, 10);
+    color: #0e606b;
 }
 
 /* mouse over link */
 a:hover {
-    color: rgb(173, 147, 0);
+    color: #ffc24b;
 }
 
 /* selected link */
@@ -145,7 +144,7 @@ a:active {
 
 /* Footer */
 footer {
-    color: rgb(24, 111, 43);
+    color: #0e606b;
     text-align: center;
     font-weight: bold;
     padding: 20px;
